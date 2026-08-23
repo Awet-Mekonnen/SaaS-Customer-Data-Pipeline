@@ -1,0 +1,34 @@
+[
+  {
+    "contact_id": "S001",
+    "contact_name": "J. Smith",
+    "email": "john.smith@gmail.com",
+    "organization": "Acme, Inc.",
+    "deal_value": 15000,
+    "sales_stage": "Closed Won"
+  },
+  {
+    "contact_id": "S002",
+    "contact_name": "Sarah Johnson",
+    "email": "SARAH.JOHNSON@OUTLOOK.COM",
+    "organization": "TechNova LLC",
+    "deal_value": 22000,
+    "sales_stage": "Negotiation"
+  },
+  {
+    "contact_id": "S003",
+    "contact_name": "Michael Brown",
+    "email": "michael.brown@yahoo.com",
+    "organization": "DataWorks Corp.",
+    "deal_value": 18000,
+    "sales_stage": "Proposal"
+  },
+  {
+    "contact_id": "S004",
+    "contact_name": "David Wilson",
+    "email": "david.wilson@gmail.com",
+    "organization": "Cloud Systems",
+    "deal_value": 12000,
+    "sales_stage": "Qualified"
+  }
+]

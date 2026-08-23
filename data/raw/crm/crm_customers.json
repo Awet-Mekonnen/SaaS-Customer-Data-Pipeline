@@ -1,0 +1,34 @@
+[
+  {
+    "customer_id": "C001",
+    "first_name": "John",
+    "last_name": "Smith",
+    "email": "john.smith@gmail.com",
+    "phone": "702-555-0101",
+    "company": "Acme Inc."
+  },
+  {
+    "customer_id": "C002",
+    "first_name": "Sarah",
+    "last_name": "Johnson",
+    "email": "sarah.johnson@outlook.com",
+    "phone": "702-555-0102",
+    "company": "TechNova LLC"
+  },
+  {
+    "customer_id": "C003",
+    "first_name": "Michael",
+    "last_name": "Brown",
+    "email": "michael.brown@yahoo.com",
+    "phone": "702-555-0103",
+    "company": "DataWorks Corp"
+  },
+  {
+    "customer_id": "C004",
+    "first_name": "Emily",
+    "last_name": "Davis",
+    "email": "emily.davis@gmail.com",
+    "phone": "702-555-0104",
+    "company": "Bright Solutions"
+  }
+]
