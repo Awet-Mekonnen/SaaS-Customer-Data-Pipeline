@@ -21,12 +21,19 @@ def generate_candidate_pairs(df):
             alias("source_id_1"),
             greatest(col("left.source_id"), col("right.source_id")).
             alias("source_id_2"),
+
             col("left.customer_name").alias("left_name"),
             col("right.customer_name").alias("right_name"),
+
             col("left.email").alias("left_email"),
             col("right.email").alias("right_email"),
+
+            col("left.phone").alias("left_phone"),
+            col("right.phone").alias("right_phone"),
+
             col("left.company_normalized").alias("left_company"),
             col("right.company_normalized").alias("right_company"),
+
             col("left.source").alias("left_source"),
             col("right.source").alias("right_source")
         )

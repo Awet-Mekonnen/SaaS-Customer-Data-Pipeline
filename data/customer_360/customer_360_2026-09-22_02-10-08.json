@@ -1,0 +1,102 @@
+[
+    {
+        "entity_id": "ENT-95adbabc0d9b",
+        "customer_name": "Chelsey Dietrich",
+        "email": "lucio_hettinger@annie.ca",
+        "company": "Keebler LLC",
+        "phone": "(254)954-1289",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C005, L005, S005"
+    },
+    {
+        "entity_id": "ENT-2de727982cfe",
+        "customer_name": "Clementina DuBuque",
+        "email": "rey.padberg@karina.biz",
+        "company": "Hoeger LLC",
+        "phone": "024-648-3804",
+        "source_count": 2,
+        "sources": "marketing, sales",
+        "source_ids": "L010, S010"
+    },
+    {
+        "entity_id": "ENT-64604487c74e",
+        "customer_name": "Clementine Bauch",
+        "email": "nathan@yesenia.net",
+        "company": "Romaguera-Jacobson",
+        "phone": "1-463-123-4447",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C003, L003, S003"
+    },
+    {
+        "entity_id": "ENT-fdc98571fc93",
+        "customer_name": "Ervin Howell",
+        "email": "shanna@melissa.tv",
+        "company": "Deckow-Crist",
+        "phone": "010-692-6593 x09125",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C002, L002, S002"
+    },
+    {
+        "entity_id": "ENT-de36046be14c",
+        "customer_name": "Glenna Reichert",
+        "email": "chaim_mcdermott@dana.io",
+        "company": "Yost and Sons",
+        "phone": "(775)976-6794 x41206",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C009, L009, S009"
+    },
+    {
+        "entity_id": "ENT-ac8d2a6d24e8",
+        "customer_name": "K Weissnat",
+        "email": "telly.hoeger@billy.biz",
+        "company": "Johns Group",
+        "phone": "210.067.6132",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C007, L007, S007"
+    },
+    {
+        "entity_id": "ENT-a4906a54b9b8",
+        "customer_name": "L Graham",
+        "email": "sincere@april.biz",
+        "company": "Romaguera-Crona",
+        "phone": "1-770-736-8031 x56442",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C001, L001, S001"
+    },
+    {
+        "entity_id": "ENT-2db7a28cc428",
+        "customer_name": "Mrs. Dennis Schulist",
+        "email": "karley_dach@jasper.info",
+        "company": "Considine-Lockman",
+        "phone": "1-477-935-8478 x6430",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C006, L006, S006"
+    },
+    {
+        "entity_id": "ENT-8d9e24cf98ed",
+        "customer_name": "Nicholas Runolfsdottir V",
+        "email": "sherwood@rosamond.me",
+        "company": "Abernathy Group",
+        "phone": "586.493.6943 x140",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C008, L008, S008"
+    },
+    {
+        "entity_id": "ENT-f12ce50422ff",
+        "customer_name": "Patricia",
+        "email": "julianne.oconner@kory.org",
+        "company": "R-Corkery",
+        "phone": "493-170-9623 x156",
+        "source_count": 3,
+        "sources": "crm, marketing, sales",
+        "source_ids": "C004, L004, S004"
+    }
+]

@@ -5,15 +5,11 @@ from pyspark.sql.types import StringType
 def transform_crm(crm_df):
 
     crm_silver = crm_df.select(
-        concat_ws(
-            " ",
-            trim(col("first_name")),
-            trim(col("last_name"))
-        ).alias("customer_name"),
+        col("name").alias("customer_name"),
 
         lower(trim(col("email"))).alias("email"),
 
-        trim(col("company")).alias("company"),
+        col("company").alias("company"),
 
         trim(col("phone")).alias("phone"),
 
@@ -32,9 +28,9 @@ def transform_marketing(marketing_df):
 
         lower(trim(col("email"))).alias("email"),
 
-        trim(col("company_name")).alias("company"),
+        col("company").alias("company"),
 
-        lit(None).cast(StringType()).alias("phone"),
+        col("phone").alias("phone"),
 
         col("lead_id").alias("source_id"),
 
@@ -47,15 +43,15 @@ def transform_marketing(marketing_df):
 def transform_sales(sales_df):
 
     sales_silver = sales_df.select(
-        trim(col("contact_name")).alias("customer_name"),
+        col("name").alias("customer_name"),
 
         lower(trim(col("email"))).alias("email"),
 
-        trim(col("organization")).alias("company"),
+        col("company").alias("company"),
 
-        lit(None).cast(StringType()).alias("phone"),
+        col("phone").alias("phone"),
 
-        col("contact_id").alias("source_id"),
+        col("sales_id").alias("source_id"),
 
         lit("sales").alias("source")
     )

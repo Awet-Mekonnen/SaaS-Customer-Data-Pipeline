@@ -1,19 +1,55 @@
-from ingestion.crm import fetch_crm_customers, save_crm_raw
-from ingestion.marketing import fetch_marketing_leads, save_marketing_raw
-from ingestion.sales import fetch_sales_contacts, save_sales_raw
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import (
+    lower, trim, col, greatest, 
+    levenshtein, length, when, lit
+)
+from transform_data import transform_data
+from check_quality import (
+    check_data_quality, check_entity_quality 
+)
+from import_files import load_data
+from matching_modules import matching
+from transformation.gold import build_customer_360
+from ingestion.save_data import save_data
 
-def main():
-    crm_data = fetch_crm_customers()
-    marketing_data = fetch_marketing_leads()
-    sales_data = fetch_sales_contacts()
 
-    save_crm_raw(crm_data)
-    save_marketing_raw(marketing_data)
-    save_sales_raw(sales_data)
+def create_spark_session():
 
-    print("Raw CRM data saved successfully.")
-    print("Raw Marketing data saved successfully.")
-    print("Raw Sales data saved successfully.")
+    spark = (
+        SparkSession.builder
+        .appName("SaaS Customer Data Pipeline")
+        .master("local[*]")
+        .getOrCreate()
+    )
+
+    return spark
+
 
 if __name__ == "__main__":
-    main()
+
+    spark = create_spark_session()
+
+    crm_df, marketing_df, sales_df = load_data(spark)
+
+    silver_df = transform_data(crm_df, marketing_df, sales_df)
+
+    silver_path = save_data(silver_df, "silver", "reports/")
+
+    check_data_quality(silver_df)
+
+    resolved_customer = matching(silver_df)
+
+    customer_360 = build_customer_360(
+        resolved_customer
+    )
+
+    check_entity_quality(
+        customer_360
+    )
+
+    customer_360_path = save_data(
+        customer_360, "customer_360", "reports/"
+    )
+
+    print("Spark Bronze Data Pipeline completed successfully.")
+    spark.stop()

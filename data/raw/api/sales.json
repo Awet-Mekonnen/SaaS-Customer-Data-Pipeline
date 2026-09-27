@@ -1,0 +1,72 @@
+[
+  {
+    "sales_id": "S001",
+    "name": "L. Graham",
+    "email": "Sincere@april.biz",
+    "company": "Romaguera-Crona",
+    "phone": "1-770-736-8031 x56442"
+  },
+  {
+    "sales_id": "S002",
+    "name": "Ervin Howell",
+    "email": "Shanna@melissa.tv",
+    "company": "Deckow-Crist",
+    "phone": "010-692-6593 x09125"
+  },
+  {
+    "sales_id": "S003",
+    "name": "C Bauch",
+    "email": "Nathan@yesenia.net",
+    "company": "Romaguera-Jacobson",
+    "phone": "1-463-123-4447"
+  },
+  {
+    "sales_id": "S004",
+    "name": "P. Lebsack",
+    "email": "Julianne.OConner@kory.org",
+    "company": "Robel-Corkery",
+    "phone": "493-170-9623 x156"
+  },
+  {
+    "sales_id": "S005",
+    "name": "Chelsey Dietrich",
+    "email": "Lucio_Hettinger@annie.ca",
+    "company": "Keebler LLC",
+    "phone": "(254)954-1289"
+  },
+  {
+    "sales_id": "S006",
+    "name": "Mrs. Dennis Schulist",
+    "email": "Karley_Dach@jasper.info",
+    "company": "Considine-Lockman",
+    "phone": "1-477-935-8478 x6430"
+  },
+  {
+    "sales_id": "S007",
+    "name": "Kurtis Weissnat",
+    "email": "Telly.Hoeger@billy.biz",
+    "company": "Johns Group",
+    "phone": "210.067.6132"
+  },
+  {
+    "sales_id": "S008",
+    "name": "Nicholas Runolfsdottir V",
+    "email": "Sherwood@rosamond.me",
+    "company": "Abernathy Group",
+    "phone": "586.493.6943 x140"
+  },
+  {
+    "sales_id": "S009",
+    "name": "Glenna Reichert",
+    "email": "Chaim_McDermott@dana.io",
+    "company": "Yost and Sons",
+    "phone": "(775)976-6794 x41206"
+  },
+  {
+    "sales_id": "S010",
+    "name": "Clementina DuBuque",
+    "email": "Rey.Padberg@karina.biz",
+    "company": "Hoeger LLC",
+    "phone": "024-648-3804"
+  }
+]

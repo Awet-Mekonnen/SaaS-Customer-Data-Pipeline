@@ -1,0 +1,292 @@
+[
+    {
+        "customer_name": "L Graham",
+        "email": "sincere@april.biz",
+        "company": "Romaguera-Crona",
+        "phone": "1-770-736-8031 x56442",
+        "source": "crm",
+        "entity_id": "ENT-a4906a54b9b8",
+        "company_normalized": "romagueracrona",
+        "company_id": "18f9c3fdf05ea8f37f6afff530fde10c3eac4559331781a536913fc308c98c49"
+    },
+    {
+        "customer_name": "Ervin Howell",
+        "email": "shanna@melissa.tv",
+        "company": "Deckow-Crist",
+        "phone": "010-692-6593 x09125",
+        "source": "crm",
+        "entity_id": "ENT-fdc98571fc93",
+        "company_normalized": "deckowcrist",
+        "company_id": "e11ed145b7af8892bff8bde945995d006a43efb416290ec431117ce78600628b"
+    },
+    {
+        "customer_name": "Clementine Bauch",
+        "email": "nathan@yesenia.net",
+        "company": "Romaguera-Jacobson",
+        "phone": "1-463-123-4447",
+        "source": "crm",
+        "entity_id": "ENT-64604487c74e",
+        "company_normalized": "romaguerajacobson",
+        "company_id": "18fe625c151957698652beed2176793d52ec07e2450fb71d4dffd1668146b094"
+    },
+    {
+        "customer_name": "Patricia",
+        "email": "julianne.oconner@kory.org",
+        "company": "R-Corkery",
+        "phone": "493-170-9623 x156",
+        "source": "crm",
+        "entity_id": "ENT-f12ce50422ff",
+        "company_normalized": "rcorkery",
+        "company_id": "c4c2c0604d3e07b53c2a442e606ed53586f8698cb8950b1ad754d8173911b6ff"
+    },
+    {
+        "customer_name": "Chelsey Dietrich",
+        "email": "lucio_hettinger@annie.ca",
+        "company": "Keebler LLC",
+        "phone": "(254)954-1289",
+        "source": "crm",
+        "entity_id": "ENT-95adbabc0d9b",
+        "company_normalized": "keebler",
+        "company_id": "609dc9d24cbab2568b6f8db8db6b73e09727aa5ecde79cec361592584223c020"
+    },
+    {
+        "customer_name": "Mrs. Dennis Schulist",
+        "email": "karley_dach@jasper.info",
+        "company": "Considine-Lockman",
+        "phone": "1-477-935-8478 x6430",
+        "source": "crm",
+        "entity_id": "ENT-2db7a28cc428",
+        "company_normalized": "considinelockman",
+        "company_id": "b8046610762d76db66cb7e69e2588b210daaaed7ec494f593f979db4afe554e9"
+    },
+    {
+        "customer_name": "K Weissnat",
+        "email": "telly.hoeger@billy.biz",
+        "company": "Johns Group",
+        "phone": "210.067.6132",
+        "source": "crm",
+        "entity_id": "ENT-ac8d2a6d24e8",
+        "company_normalized": "johnsgroup",
+        "company_id": "a65e3ff9bdff2bed548a05cc2982b260fcdb3b7dc66767475a307e08d8dd1acb"
+    },
+    {
+        "customer_name": "Nicholas Runolfsdottir V",
+        "email": "sherwood@rosamond.me",
+        "company": "Abernathy Group",
+        "phone": "586.493.6943 x140",
+        "source": "crm",
+        "entity_id": "ENT-8d9e24cf98ed",
+        "company_normalized": "abernathygroup",
+        "company_id": "ddfe0e315736eb91db13ec9f51e508de9c75fc30efc8cc4441b046ee142279b3"
+    },
+    {
+        "customer_name": "Glenna Reichert",
+        "email": "chaim_mcdermott@dana.io",
+        "company": "Yost and Sons",
+        "phone": "(775)976-6794 x41206",
+        "source": "crm",
+        "entity_id": "ENT-de36046be14c",
+        "company_normalized": "yostandsons",
+        "company_id": "19aa58f1e26e0f4b5b786a013b685b2fc387b8da6801effb3d208d918b39e807"
+    },
+    {
+        "customer_name": "Leanne Graham",
+        "email": "sincere@april.biz",
+        "company": "Romaguera-Crona",
+        "phone": "1-770-736-8031 x56442",
+        "source": "marketing",
+        "entity_id": "ENT-a4906a54b9b8",
+        "company_normalized": "romagueracrona",
+        "company_id": "18f9c3fdf05ea8f37f6afff530fde10c3eac4559331781a536913fc308c98c49"
+    },
+    {
+        "customer_name": "Ervin Howell",
+        "email": "shanna@melissa.tv",
+        "company": "Deckow-Crist",
+        "phone": "010-692-6593 x09125",
+        "source": "marketing",
+        "entity_id": "ENT-fdc98571fc93",
+        "company_normalized": "deckowcrist",
+        "company_id": "e11ed145b7af8892bff8bde945995d006a43efb416290ec431117ce78600628b"
+    },
+    {
+        "customer_name": "Clementine Bauch",
+        "email": "nathan@yesenia.net",
+        "company": "Romaguera-Jacobson",
+        "phone": "1-463-123-4447",
+        "source": "marketing",
+        "entity_id": "ENT-64604487c74e",
+        "company_normalized": "romaguerajacobson",
+        "company_id": "18fe625c151957698652beed2176793d52ec07e2450fb71d4dffd1668146b094"
+    },
+    {
+        "customer_name": "Patricia Lebsack",
+        "email": "julianne.oconner@kory.org",
+        "company": "Robel-Corkery",
+        "phone": "493-170-9623 x156",
+        "source": "marketing",
+        "entity_id": "ENT-f12ce50422ff",
+        "company_normalized": "robelcorkery",
+        "company_id": "97d7b7c929dc9ee0b19f4c3001d90507e75cdb141ff30ddc061bc2c25e1972f3"
+    },
+    {
+        "customer_name": "Chelsey Dietrich",
+        "email": "lucio_hettinger@annie.ca",
+        "company": "Keebler LLC",
+        "phone": "(254)954-1289",
+        "source": "marketing",
+        "entity_id": "ENT-95adbabc0d9b",
+        "company_normalized": "keebler",
+        "company_id": "609dc9d24cbab2568b6f8db8db6b73e09727aa5ecde79cec361592584223c020"
+    },
+    {
+        "customer_name": "Mrs. Dennis Schulist",
+        "email": "karley_dach@jasper.info",
+        "company": "Considine-Lockman",
+        "phone": "1-477-935-8478 x6430",
+        "source": "marketing",
+        "entity_id": "ENT-2db7a28cc428",
+        "company_normalized": "considinelockman",
+        "company_id": "b8046610762d76db66cb7e69e2588b210daaaed7ec494f593f979db4afe554e9"
+    },
+    {
+        "customer_name": "Kurtis Weissnat",
+        "email": "telly.hoeger@billy.biz",
+        "company": "Johns Group",
+        "phone": "210.067.6132",
+        "source": "marketing",
+        "entity_id": "ENT-ac8d2a6d24e8",
+        "company_normalized": "johnsgroup",
+        "company_id": "a65e3ff9bdff2bed548a05cc2982b260fcdb3b7dc66767475a307e08d8dd1acb"
+    },
+    {
+        "customer_name": "Nicholas Runolfsdottir V",
+        "email": "sherwood@rosamond.me",
+        "company": "Abernathy Group",
+        "phone": "586.493.6943 x140",
+        "source": "marketing",
+        "entity_id": "ENT-8d9e24cf98ed",
+        "company_normalized": "abernathygroup",
+        "company_id": "ddfe0e315736eb91db13ec9f51e508de9c75fc30efc8cc4441b046ee142279b3"
+    },
+    {
+        "customer_name": "Glenna Reichert",
+        "email": "chaim_mcdermott@dana.io",
+        "company": "Yost and Sons",
+        "phone": "(775)976-6794 x41206",
+        "source": "marketing",
+        "entity_id": "ENT-de36046be14c",
+        "company_normalized": "yostandsons",
+        "company_id": "19aa58f1e26e0f4b5b786a013b685b2fc387b8da6801effb3d208d918b39e807"
+    },
+    {
+        "customer_name": "Clementina DuBuque",
+        "email": "rey.padberg@karina.biz",
+        "company": "Hoeger LLC",
+        "phone": "024-648-3804",
+        "source": "marketing",
+        "entity_id": "ENT-2de727982cfe",
+        "company_normalized": "hoeger",
+        "company_id": "8f7100c22b89a2a69a7e3c79e6b918231d28a15e32ee91bc82ad99cf5ede81d2"
+    },
+    {
+        "customer_name": "L. Graham",
+        "email": "sincere@april.biz",
+        "company": "Romaguera-Crona",
+        "phone": "1-770-736-8031 x56442",
+        "source": "sales",
+        "entity_id": "ENT-a4906a54b9b8",
+        "company_normalized": "romagueracrona",
+        "company_id": "18f9c3fdf05ea8f37f6afff530fde10c3eac4559331781a536913fc308c98c49"
+    },
+    {
+        "customer_name": "Ervin Howell",
+        "email": "shanna@melissa.tv",
+        "company": "Deckow-Crist",
+        "phone": "010-692-6593 x09125",
+        "source": "sales",
+        "entity_id": "ENT-fdc98571fc93",
+        "company_normalized": "deckowcrist",
+        "company_id": "e11ed145b7af8892bff8bde945995d006a43efb416290ec431117ce78600628b"
+    },
+    {
+        "customer_name": "C Bauch",
+        "email": "nathan@yesenia.net",
+        "company": "Romaguera-Jacobson",
+        "phone": "1-463-123-4447",
+        "source": "sales",
+        "entity_id": "ENT-64604487c74e",
+        "company_normalized": "romaguerajacobson",
+        "company_id": "18fe625c151957698652beed2176793d52ec07e2450fb71d4dffd1668146b094"
+    },
+    {
+        "customer_name": "P. Lebsack",
+        "email": "julianne.oconner@kory.org",
+        "company": "Robel-Corkery",
+        "phone": "493-170-9623 x156",
+        "source": "sales",
+        "entity_id": "ENT-f12ce50422ff",
+        "company_normalized": "robelcorkery",
+        "company_id": "97d7b7c929dc9ee0b19f4c3001d90507e75cdb141ff30ddc061bc2c25e1972f3"
+    },
+    {
+        "customer_name": "Chelsey Dietrich",
+        "email": "lucio_hettinger@annie.ca",
+        "company": "Keebler LLC",
+        "phone": "(254)954-1289",
+        "source": "sales",
+        "entity_id": "ENT-95adbabc0d9b",
+        "company_normalized": "keebler",
+        "company_id": "609dc9d24cbab2568b6f8db8db6b73e09727aa5ecde79cec361592584223c020"
+    },
+    {
+        "customer_name": "Mrs. Dennis Schulist",
+        "email": "karley_dach@jasper.info",
+        "company": "Considine-Lockman",
+        "phone": "1-477-935-8478 x6430",
+        "source": "sales",
+        "entity_id": "ENT-2db7a28cc428",
+        "company_normalized": "considinelockman",
+        "company_id": "b8046610762d76db66cb7e69e2588b210daaaed7ec494f593f979db4afe554e9"
+    },
+    {
+        "customer_name": "Kurtis Weissnat",
+        "email": "telly.hoeger@billy.biz",
+        "company": "Johns Group",
+        "phone": "210.067.6132",
+        "source": "sales",
+        "entity_id": "ENT-ac8d2a6d24e8",
+        "company_normalized": "johnsgroup",
+        "company_id": "a65e3ff9bdff2bed548a05cc2982b260fcdb3b7dc66767475a307e08d8dd1acb"
+    },
+    {
+        "customer_name": "Nicholas Runolfsdottir V",
+        "email": "sherwood@rosamond.me",
+        "company": "Abernathy Group",
+        "phone": "586.493.6943 x140",
+        "source": "sales",
+        "entity_id": "ENT-8d9e24cf98ed",
+        "company_normalized": "abernathygroup",
+        "company_id": "ddfe0e315736eb91db13ec9f51e508de9c75fc30efc8cc4441b046ee142279b3"
+    },
+    {
+        "customer_name": "Glenna Reichert",
+        "email": "chaim_mcdermott@dana.io",
+        "company": "Yost and Sons",
+        "phone": "(775)976-6794 x41206",
+        "source": "sales",
+        "entity_id": "ENT-de36046be14c",
+        "company_normalized": "yostandsons",
+        "company_id": "19aa58f1e26e0f4b5b786a013b685b2fc387b8da6801effb3d208d918b39e807"
+    },
+    {
+        "customer_name": "Clementina DuBuque",
+        "email": "rey.padberg@karina.biz",
+        "company": "Hoeger LLC",
+        "phone": "024-648-3804",
+        "source": "sales",
+        "entity_id": "ENT-2de727982cfe",
+        "company_normalized": "hoeger",
+        "company_id": "8f7100c22b89a2a69a7e3c79e6b918231d28a15e32ee91bc82ad99cf5ede81d2"
+    }
+]

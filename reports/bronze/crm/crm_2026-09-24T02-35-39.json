@@ -1,0 +1,65 @@
+[
+    {
+        "company": "Romaguera-Crona",
+        "customer_id": "C001",
+        "email": "Sincere@april.biz",
+        "name": "L Graham",
+        "phone": "1-770-736-8031 x56442"
+    },
+    {
+        "company": "Deckow-Crist",
+        "customer_id": "C002",
+        "email": "Shanna@melissa.tv",
+        "name": "Ervin Howell",
+        "phone": "010-692-6593 x09125"
+    },
+    {
+        "company": "Romaguera-Jacobson",
+        "customer_id": "C003",
+        "email": "Nathan@yesenia.net",
+        "name": "Clementine Bauch",
+        "phone": "1-463-123-4447"
+    },
+    {
+        "company": "R-Corkery",
+        "customer_id": "C004",
+        "email": "Julianne.OConner@kory.org",
+        "name": "Patricia",
+        "phone": "493-170-9623 x156"
+    },
+    {
+        "company": "Keebler LLC",
+        "customer_id": "C005",
+        "email": "Lucio_Hettinger@annie.ca",
+        "name": "Chelsey Dietrich",
+        "phone": "(254)954-1289"
+    },
+    {
+        "company": "Considine-Lockman",
+        "customer_id": "C006",
+        "email": "Karley_Dach@jasper.info",
+        "name": "Mrs. Dennis Schulist",
+        "phone": "1-477-935-8478 x6430"
+    },
+    {
+        "company": "Johns Group",
+        "customer_id": "C007",
+        "email": "Telly.Hoeger@billy.biz",
+        "name": "K Weissnat",
+        "phone": "210.067.6132"
+    },
+    {
+        "company": "Abernathy Group",
+        "customer_id": "C008",
+        "email": "Sherwood@rosamond.me",
+        "name": "Nicholas Runolfsdottir V",
+        "phone": "586.493.6943 x140"
+    },
+    {
+        "company": "Yost and Sons",
+        "customer_id": "C009",
+        "email": "Chaim_McDermott@dana.io",
+        "name": "Glenna Reichert",
+        "phone": "(775)976-6794 x41206"
+    }
+]

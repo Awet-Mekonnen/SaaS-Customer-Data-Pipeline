@@ -1,0 +1,74 @@
+[
+    {
+        "left_name": "Patricia",
+        "right_name": "Patricia Lebsack",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 66.66666666666667,
+        "match_score": 55
+    },
+    {
+        "left_name": "Patricia",
+        "right_name": "P. Lebsack",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 66.66666666666667,
+        "match_score": 55
+    },
+    {
+        "left_name": "Clementine Bauch",
+        "right_name": "C Bauch",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 100.0,
+        "match_score": 75
+    },
+    {
+        "left_name": "Clementine Bauch",
+        "right_name": "C Bauch",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 100.0,
+        "match_score": 75
+    },
+    {
+        "left_name": "Patricia Lebsack",
+        "right_name": "P. Lebsack",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 100.0,
+        "match_score": 75
+    },
+    {
+        "left_name": "L Graham",
+        "right_name": "Leanne Graham",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 100.0,
+        "match_score": 80
+    },
+    {
+        "left_name": "K Weissnat",
+        "right_name": "Kurtis Weissnat",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 100.0,
+        "match_score": 80
+    },
+    {
+        "left_name": "K Weissnat",
+        "right_name": "Kurtis Weissnat",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 100.0,
+        "match_score": 80
+    },
+    {
+        "left_name": "Leanne Graham",
+        "right_name": "L. Graham",
+        "email_match": 1,
+        "phone_match": 1,
+        "company_similarity": 100.0,
+        "match_score": 80
+    }
+]
