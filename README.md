@@ -65,10 +65,14 @@ Each source is preserved seperately so that the original records can be traced b
 
 Example:
 
-data/ 
+data/
+
 └── bronze/ 
+    
     ├── crm/ 
+    
     ├── marketing/ 
+    
     └── sales/
 
 The Bronze layer provides a reproducible starting point for downstream processing.
@@ -118,9 +122,11 @@ The pipeline therefore creates candidate groups using blocking attributes before
 This reduces the number of record pairs that need to be evaluated.
 
 Silver Records
+      
       │
       ▼
    Blocking
+      
       │
       ▼
 Candidate Pairs
@@ -151,14 +157,17 @@ The resulting match score is used together with identifying fields to classify c
 Candidate matches are separated into confidence categories:
 
 High Confidence
+      
       │
       ├── Strong overall match
       │
 Medium Confidence
+      
       │
       ├── Partial evidence
       │
 No Match
+      
       │
       └── Insufficient evidence
 
@@ -171,7 +180,9 @@ Each resolved customer receives a stable entity_id.
 For example:
 
 C001 ─┐
+
 L001 ─┼──> ENT-a4906a54b9b8
+
 S001 ─┘
 
 This allows records from multiple source systems to be associated with the same real-world customer.
@@ -185,11 +196,17 @@ After entity resolution, the pipeline combines the records associated with each 
 Example:
 
 Entity ID:     ENT-a4906a54b9b8
+
 Customer:      L Graham
+
 Email:         sincere@april.biz
+
 Company:       Romaguera-Crona
+
 Phone:         1-770-736-8031 x56442
+
 Sources:       CRM, Marketing, Sales
+
 Source IDs:    C001, L001, S001
 
 The Customer 360 output provides a single analytical representation of each customer while preserving the source systems from which the information originated.
@@ -242,9 +259,13 @@ Pipeline results and validation information are stored as JSON reports rather th
 Current reporting includes:
 
 reports/
+
 ├── high_confidence_matches.json
+
 ├── entity_groups.json
+
 ├── data_quality.json
+
 └── pipeline_run.json
 
 These reports make pipeline results easier to inspect, validate, and reuse without rerunning the entire Spark job.
@@ -252,31 +273,53 @@ These reports make pipeline results easier to inspect, validate, and reuse witho
 ## Project Structure
 
 SaaS Customer Data Pipeline/
+
 │
+
 ├── data/
+
 │   ├── raw/
+
 │   ├── bronze/
+
 │   ├── silver/
+
 │   └── gold/
+
 │
+
 ├── reports/
+
 │
+
 ├── src/
+
 │   ├── ingestion/
+
 │   ├── matching/
+
 │   ├── quality/
+
 │   ├── transformation/
+
 │   ├── check_quality.py
+
 │   ├── customer_360.py
+
 │   ├── import_files.py
+
 │   ├── matching_modules.py
+
 │   ├── transform_data.py
+
 │   └── main.py
+
 │
-├── notebooks/
-│
+
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
 
 The top-level helper modules are used to keep the main pipeline orchestration concise while the underlying functionality remains separated into logical modules.
@@ -313,49 +356,77 @@ Generated outputs and reports are written to their respective directories.
 ## Example End-to-End Flow
 
 Source Data
+
     │
     ▼
 ┌─────────────┐
+
 │   Bronze    │
+
 │ Raw Records │
+
 └──────┬──────┘
+
        │
        ▼
 ┌─────────────┐
+
 │   Silver    │
+
 │ Standardize │
+
 │ + Validate  │
+
 └──────┬──────┘
+
        │
        ▼
 ┌─────────────┐
+
 │   Blocking  │
+
 └──────┬──────┘
+
        │
        ▼
 ┌─────────────┐
+
 │ Candidates  │
+
 └──────┬──────┘
+
        │
        ▼
 ┌─────────────┐
+
 │ Match Score │
+
 └──────┬──────┘
+
        │
        ▼
 ┌─────────────┐
+
 │   Entity    │
+
 │ Resolution  │
+
 └──────┬──────┘
+
        │
        ▼
 ┌─────────────┐
+
 │ Customer 360│
+
 └──────┬──────┘
+
        │
        ▼
 ┌─────────────┐
+
 │    Gold     │
+
 └─────────────┘
 
 ## Project Outcome
